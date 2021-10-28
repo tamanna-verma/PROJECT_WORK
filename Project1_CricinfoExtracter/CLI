@@ -1,0 +1,9 @@
+// npm init -y (y means yes and init means initialize )
+// npm install minimist (we parse our input string to minimist)
+// npm install axios (to download the data from web )
+// npm install jsdom (create a DOM file for programmer , it basically does the work of the browser)
+// npm install excel4node(creates the excel workboook and even creating worksheet )
+// npm install pdf-lib (//pdf lib can do 2 types of work , create a complete new pdf , another is modify the already existing template)
+
+Command to run the code -->
+node CricinfoExtracter.js --excel="WorlCup.csv" --dataFolder="data" -- source="https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results"
