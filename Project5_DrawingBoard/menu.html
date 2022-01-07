@@ -1,0 +1,99 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!--all the tools in the toolbar-->
+
+<div class="toolbar">
+ <!--tool0-->
+        <div class="tool" id ="Pencil">
+            <img src="/resources-master/NewIcons/Black_Pencil.svg" alt="" class="tool-img">
+
+                <!-- .size1+.size2+.size3 -->
+            <div class="size-box">  
+                <div class="size1 size" ></div>
+                <div class="size2 size" ></div>
+                <div class="size3 size" ></div>
+                <div class="size4 size" ></div>
+            </div>     
+        </div>
+<!--tool1-->
+        <div class="tool" id="Eraser">
+            <img src="/resources-master/NewIcons/Eraser.svg" alt="" class="tool-img" >
+            <div class="size-box">  
+                <div class="size1 size" ></div>
+                <div class="size2 size" ></div>
+                <div class="size3 size" ></div>
+                <div class="size4 size" ></div> 
+            </div>     
+        </div>
+<!--tool2-->
+        <div class="tool" id="Rectangle">
+           <!-- <img src="/resources-master/NewIcons/Rectangle.svg" alt="" class="tool-img" >   --> 
+           <i class="fas fa-square"></i>        
+            <div class="size-box">  
+                <div class="size1 size" ></div>
+                <div class="size2 size" ></div>
+                <div class="size3 size" ></div>
+                <div class="size4 size" ></div>
+            </div>     
+        </div>
+<!--tool3-->
+        <div class="tool" id="Line">
+          <!-- <img src="/resources-master/NewIcons/horizontal.svg" alt="" class="tool-img" >   -->      
+          <i class="fas fa-grip-lines-vertical"></i>
+            <div class="size-box">  
+                <div class="size1 size" ></div>
+                <div class="size2 size" ></div>
+                <div class="size3 size" ></div>
+                <div class="size4 size" ></div>
+            </div>     
+        </div>
+        
+<!--tool4-->
+        <!-- <div class="tool" id="Download">
+            <img src="/resources -master/NewIcons/Download.svg" alt="" class="tool-img" >
+        </div> -->
+
+<!--tool5-->
+      <!-- <div class="tool" id="Upload">
+            <img src="/resources-master/NewIcons/Photo.svg" alt="" class="tool-img" >
+        </div> -->
+        <div class="tool" id="sticky">
+            <img src="/resources-master/NewIcons/StickyNote.svg" alt="" class="tool-img" >
+        </div>
+
+     <div class="color-container">
+                 <!-- single unit-->
+                <!-- .color*3 -->
+            <div class="color red"></div>
+            <div class="color blue"></div>
+            <div class="color green"></div>
+     </div>
+
+</div>
+    <canvas></canvas>  
+
+</body>
+
+
+<script src="setup.js"></script>
+
+<!--variable declare && tool change-->
+<script src="toolChange.js"></script>
+  
+<!--draw code && color change -->  
+<script src="draw.js"></script>
+
+<!--Sticky Notes-->
+<script src="sticky.js"></script>
+        
+</html>

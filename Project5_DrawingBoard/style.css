@@ -1,0 +1,133 @@
+ 
+.size-box
+     {
+        width:150px;
+        height:30px;
+       /* display:flex;*/
+        border:1px solid gray;
+        align-items: center;
+        justify-content:space-evenly;
+        display:none;
+
+     }
+     .fas/*for the rectangle and line tool*/
+     {
+         font-size:2rem;     /*mtlb jo b size tha rectangle aur line tool ka usse double krdo size */
+     }
+     .size{
+         border-radius:50%;
+        background-color: lightsteelblue;
+             
+
+     }
+     .size1{
+         height:10px;
+         width:10px;
+         border:2px solid gray; background-color: lightsteelblue;
+     }
+     .size2{
+         height:15px;
+         width:15px;
+         border:2px solid gray;
+     }
+     .size3{
+         height:20px;
+         width:20px;
+         border:2px solid gray;
+     }
+     .size4{
+         height:25px;
+         width:25px;
+         border:2px solid gray;
+     }
+      
+      body{
+          background-color: beige;
+      }
+      .toolbar
+      {
+          border:3px solid pink;
+          border-radius:4px;
+          display:flex;
+          width:70vw;
+          margin:0 auto;
+          height:100px;
+          align-items:center;
+          justify-content:space-evenly;
+          background-color:paleturquoise;
+      }
+      .tool-img{
+          height:50px;
+      }
+      .color-container
+      {
+      border: 3px solid pink;
+      border-radius:3px;
+      height:50px;
+      width:150px;
+      display:flex;
+      align-items:center;
+      justify-content:space-evenly;
+      background-color: beige;
+      }
+     
+      .color
+      {
+       height:40px;
+       width:40px;
+       border-radius:50%;
+      }
+      .red
+      {
+         background-color: lightpink;
+      
+      }
+      .green{
+          background-color: lightgreen; 
+      }
+      .blue{
+          background-color: lightblue; 
+      }
+    /* for sticky notes */
+       .sticky
+       {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height:175px;
+        width:175px;
+        position : absolute;
+        top: 8rem;
+        left: 8rem;
+        }
+        .navbar
+        {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height:24px;/* 15 percent height of the parent(sticky ka size ki 15 percent) height*/
+        align-items:center;
+        width:175px;
+        display:flex;
+        justify-content:flex-end ;
+        background-color:transparent;
+        
+       }
+        .close{
+            height:10px;
+            width:10px;
+            background-color: lightcoral;
+            border-radius:50%;
+        }
+        .minimize{
+            height:10px;
+            width:10px;
+            background-color: lightgreen;
+            border-radius:50%;
+        }
+        .textarea
+        {
+           height:140px;
+           width:170px;
+           outline:none;
+           border:none;
+           height:85%;
+           border-top:2px solid gray; 
+        }
+       
